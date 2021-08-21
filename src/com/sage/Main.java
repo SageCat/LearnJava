@@ -1,8 +1,12 @@
 package com.sage;
 
+import project_03_operator.FlowControl;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        System.out.println("hello");
+        FlowControl.print_table(20);
+
     }
 }
