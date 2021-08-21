@@ -1,5 +1,8 @@
 package project_03_operator;
 
+/**
+ * @author g84196891
+ */
 public class FlowControl
 {
     public static void main(String[] args)
@@ -7,8 +10,10 @@ public class FlowControl
 //    判断结构: if
         System.out.println("x 小于100");
 
-//        打印九九乘法表
-        print_table(10);
+        /**
+         * 打印九九乘法表
+         */
+        printTable(10);
         int j = 10;
         //                break;
         System.out.println("等于" + j);
@@ -16,12 +21,15 @@ public class FlowControl
         System.out.println("test");
 //                break;
 
+        System.gc();
+
     }
 
-    /*
-    打印乘法表
+
+    /**
+     * Print multiplication table
      */
-    public static void print_table(int size)
+    public static void printTable(int size)
     {
         for (int i = 1; i < size; i++)
         {

@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("hello");
-        FlowControl.print_table(20);
+        FlowControl.printTable(20);
 
     }
 }
