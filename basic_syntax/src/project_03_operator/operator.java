@@ -1,5 +1,8 @@
 package project_03_operator;
 
+/**
+ * @author g84196891
+ */
 public class operator
 {
     public static void main(String[] args)
