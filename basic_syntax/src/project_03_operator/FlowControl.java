@@ -11,20 +11,16 @@ public class FlowControl
         System.out.println("x 小于100");
 
         /**
-         * 打印九九乘法表
+         * 打印九九 乘法表
          */
         printTable(10);
         int j = 10;
-        //                break;
-        System.out.println("等于" + j);
-//                break;
-        System.out.println("test");
-//                break;
 
+        System.out.println("等于" + j);
+        System.out.println("test");
         System.gc();
 
     }
-
 
     /**
      * Print multiplication table
