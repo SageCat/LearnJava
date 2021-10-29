@@ -1,5 +1,8 @@
 package project_09_thread;
 
+/**
+ * @author g84196891
+ */
 public class ThreadDemo
 {
     public static void main(String[] args)
@@ -29,6 +32,8 @@ class Demo extends Thread
     public void run()
     {
         for (int i = 0; i < 100; i++)
+        {
             System.out.println("The name is -->" + name + " ---> " + i + "---->" + this.getName());
+        }
     }
 }

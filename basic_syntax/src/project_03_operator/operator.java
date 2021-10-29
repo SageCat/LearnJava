@@ -57,7 +57,6 @@ public class operator
 //        交换 a 和 b 的值
         int a = 3;
         int b = 5;
-        System.out.println("a = " + a +", b = " + b);
 
         a = a ^ b;
         b = a ^ b;
