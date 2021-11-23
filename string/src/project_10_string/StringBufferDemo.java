@@ -38,8 +38,6 @@ public class StringBufferDemo
          */
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(123);
-
-
     }
 
 

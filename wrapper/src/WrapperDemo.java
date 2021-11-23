@@ -37,6 +37,9 @@ public class WrapperDemo
         /**
          * radix 代表进制数，二进制则写2,8进制则写8
          */
+
+        
+
         System.out.println(Integer.toString(100, 8));
         System.out.println(">>>>>>>>>>>>>>>>>>>>>");
         System.out.println(Byte.MAX_VALUE);
@@ -52,7 +55,7 @@ public class WrapperDemo
 
         Integer integer = new Integer("123");
         Integer integer1 = 123;
-        System.out.println(integer == integer1);
+        System.out.println(integer.equals(integer1));
         System.out.println(integer.equals(integer1));
 
     }
