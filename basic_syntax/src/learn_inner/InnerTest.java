@@ -19,5 +19,7 @@ public class InnerTest
             }
         };
         anInterface.method();
+
+
     }
 }

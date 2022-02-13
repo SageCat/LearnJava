@@ -3,6 +3,17 @@ package learn_duotai;
 // 子类Dog
 public class Dog extends Animal
 {
+    static
+    {
+        System.out.println("Dog 静态代码块");
+    }
+
+    public Dog()
+    {
+        super();
+        System.out.println("Dog构造方法！！！！！！！11");
+    }
+
     // 覆写父类方法
     @Override
     public void eat()
